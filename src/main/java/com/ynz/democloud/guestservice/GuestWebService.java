@@ -24,5 +24,4 @@ public class GuestWebService {
                 .orElseThrow(() -> new NotFoundException("Id :" + id + " is not found!"));
     }
 
-
 }

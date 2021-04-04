@@ -44,6 +44,11 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+up        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.5.4</version>
+        </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
