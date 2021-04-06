@@ -11,7 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class GuestServiceApplication {
 
     public static void main(String[] args) {
-        log.info("Guest service micro-service:");
+        log.info("Guest domain:");
         SpringApplication.run(GuestServiceApplication.class, args);
     }
 
